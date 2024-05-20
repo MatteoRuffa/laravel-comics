@@ -60,3 +60,18 @@
     </div>
 </section>
 
+<section class="section-bottom-footer">
+    <div class="container">
+        <div>
+            <a href="#">sign-up now!</a>
+        </div>
+        <div>
+            <span>follow us</span>
+            <img src="{{  Vite::asset('/resources/img/footer-facebook.png') }}" alt="logo-facebook">
+            <img src="{{  Vite::asset('/resources/img/footer-twitter.png') }}" alt="logo-twitter">
+            <img src="{{  Vite::asset('/resources/img/footer-youtube.png') }}" alt="logo-youtube">
+            <img src="{{  Vite::asset('/resources/img/footer-pinterest.png') }}" alt="logo-pinterest">
+            <img src="{{  Vite::asset('/resources/img/footer-periscope.png') }}" alt="logo-periscope">
+        </div>
+    </div>
+</section>
