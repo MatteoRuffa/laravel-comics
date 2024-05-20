@@ -80,24 +80,67 @@ main {
         text-transform: uppercase;
         padding: 10px 0;
     }
-    .text-center {
-        padding: 30px;
-    }
-     a {
-        text-decoration: none;
-        color: $light;
-        text-transform: uppercase;
-        font-weight: 500;
-        font-size: 1.2rem;
-        padding: 10px 100px;
-        background-color: $text-hover;
-    }
+}
+.text-center {
+    padding: 30px;
+}
+.btn-load-more a {
+    text-decoration: none;
+    color: $light;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 10px 100px;
+    background-color: $text-hover;
 }
 
-@media screen and (max-width: 1400px) {
-    .image {
-        img {
-            height: auto!important;
+// @media screen and (max-width: 1400px) {
+//     .image {
+//         img {
+//             height: auto!important;
+//         }
+//     }
+// }
+
+section {
+    background-color: $text-hover;
+    padding:  20px 0;
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+
+        li {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            a {
+                text-decoration: none;
+                transition: transform 0.3s ease;
+                img {
+                    width: 50px;
+                    
+                }
+                
+                div {
+                    text-transform: uppercase;
+                    color: $light;
+                    padding: 0 10px;
+                    transition: transform 0.3s ease;
+                }
+            }
+            a:hover {
+                transform: scale(1.5);
+            }
         }
     }
 }
+
+// @media screen and (max-width: 992px) {
+//     img {
+//         display: none;
+//     }
+    
+// }

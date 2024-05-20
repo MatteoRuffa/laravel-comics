@@ -43,6 +43,13 @@ return [
             'link' => '#'
         ]
     ] ,
+    'navbarFooter' => [
+        ['name' => 'digital comics', 'link' => '#', 'img' => '/img/buy-comics-digital-comics.png'],
+        ['name' => 'dc merchandise', 'link' => '#', 'img' => '/img/buy-comics-merchandise.png'],
+        ['name' => 'subscription', 'link' => '#', 'img' => '/img/buy-comics-subscriptions.png'],
+        ['name' => 'comic shop locator', 'link' => '#', 'img' => '/img/buy-comics-shop-locator.png'],
+        ['name' => 'dc power visa', 'link' => '#', 'img' => '/img/buy-dc-power-visa.svg']
+    ],
     'infocomics' => [
         [
             "title" => "Action Comics #1000: The Deluxe Edition",

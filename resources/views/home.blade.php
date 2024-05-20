@@ -20,7 +20,7 @@
                 </div>
             @endforeach
         </div>
-        <div class="text-center"><a href="#">load more</a></div>
+        <div class="btn-load-more text-center"><a href="#">load more</a></div>
     </div>
 </main>
 @endsection
