@@ -19,4 +19,11 @@ Route::get('/', function () {
     $navbarFooter = config('db_comics.navbarFooter');
     $navigation = config('db_comics.navigation');
     return view('home', compact('dccomics', 'comics', 'navbarFooter', 'navigation'));
-});
+})->name('home');
+Route::get('/about', function () {
+    $dccomics = config('db_comics.dccomics');
+    $comics = config('db_comics.infocomics');
+    $navbarFooter = config('db_comics.navbarFooter');
+    $navigation = config('db_comics.navigation');
+    return view('About', compact('dccomics', 'comics', 'navbarFooter', 'navigation'));
+})->name('about');
