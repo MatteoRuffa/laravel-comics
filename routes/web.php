@@ -17,5 +17,6 @@ Route::get('/', function () {
     $dccomics = config('db_comics.dccomics');
     $comics = config('db_comics.infocomics');
     $navbarFooter = config('db_comics.navbarFooter');
-    return view('home', compact('dccomics', 'comics', 'navbarFooter'));
+    $navigation = config('db_comics.navigation');
+    return view('home', compact('dccomics', 'comics', 'navbarFooter', 'navigation'));
 });

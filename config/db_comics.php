@@ -159,6 +159,41 @@ return [
             "sale_date" => "2019-04-10",
             "type" => "graphic novel",
         ]
+    ],
+    'navigation' => [
+        'dccomics' => [
+            ['name' => 'Characters', 'link' => '#'],
+            ['name' => 'Comics', 'link' => '#'],
+            ['name' => 'Movies', 'link' => '#'],
+            ['name' => 'TV', 'link' => '#'],
+            ['name' => 'Games', 'link' => '#'],
+            ['name' => 'Videos', 'link' => '#'],
+            ['name' => 'News', 'link' => '#']
+        ],
+        'shop' => [
+            ['name' => 'Shop DC', 'link' => '#'],
+            ['name' => 'Shop DC Collectibles', 'link' => '#']
+        ],
+        'dc' => [
+            ['name' => 'Terms Of Use', 'link' => '#'],
+            ['name' => 'Privacy policy (New)', 'link' => '#'],
+            ['name' => 'Ad Choices', 'link' => '#'],
+            ['name' => 'Advertising', 'link' => '#'],
+            ['name' => 'Jobs', 'link' => '#'],
+            ['name' => 'Subscriptions', 'link' => '#'],
+            ['name' => 'Talent Workshops', 'link' => '#'],
+            ['name' => 'CPSC Certificates', 'link' => '#'],
+            ['name' => 'Ratings', 'link' => '#'],
+            ['name' => 'Shop Help', 'link' => '#'],
+            ['name' => 'Contact Us', 'link' => '#']
+        ],
+        'sites' => [
+            ['name' => 'DC', 'link' => '#'],
+            ['name' => 'MAD Magazine', 'link' => '#'],
+            ['name' => 'DC Kids', 'link' => '#'],
+            ['name' => 'DC Universe', 'link' => '#'],
+            ['name' => 'DC Power Visa', 'link' => '#']
         ]
+    ],
 ];
 
